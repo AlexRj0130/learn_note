@@ -1,10 +1,3 @@
-# Markdown things we want
-
-## Prepare
-- Visual Studio Code
-- `markdown priview enhanced` extension for VSCode
-
-
 # [Markdown Basics](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics)
 
 ---
@@ -54,7 +47,7 @@
 ![name of image](https://desktop.github.com/images/desktop-icon.svg)
 
 **插入本地图片**
-![name of image](./desktop-icon.png)
+![name of image](./images/desktop-icon.png)
 
 **插入Base64图片**
 
@@ -117,14 +110,6 @@ First | Second | Third
 :--- | :---: | ---:
 hellohellohello | markmarkmark | downdowndown
 1 | 2 | 3
-
-
-
-```puml
-@startuml
-Bob->Alice
-@enduml
-```
 
 [link demo]:http://www.baidu.com
 
