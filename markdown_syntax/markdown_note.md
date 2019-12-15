@@ -11,3 +11,7 @@
 3. [Markdown Math](./markdown_math.md)
 4. [Markdown Diagrams](./markdown_diagrams.md)
 5. [Markdown File Imports](./markdown_file_imports.md)
+
+## More
+
+[`Markdown Preview Enhance`](https://shd101wyy.github.io/markdown-preview-enhanced/#/) can also be used to make `presentation slides` or `pandoc`
