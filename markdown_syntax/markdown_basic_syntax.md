@@ -49,6 +49,8 @@
 **插入本地图片**
 ![name of image](./images/desktop-icon.png)
 
+> 注：如果需要截屏然后插入图片，可以使用 `Paste Image` 这个插件。
+
 **插入Base64图片**
 
 ![name of image][image demo]
