@@ -1,17 +1,23 @@
+[TOC]
+
 # [Markdown Basics](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics)
+
+---
+## [自动生成目录](https://shd101wyy.github.io/markdown-preview-enhanced/#/toc)
+> 参考[Headers](#Headers)一节
 
 ---
 ## [Headers](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics?id=headers)
 
 
-# level 1
-## level 2
-### level 3
-#### level 4
-##### level 5
-###### level 6
-###### header with id {#header_id}
-###### header with class {.header_class1, .header_class2}
+# level 1 {ignore=true}
+## level 2 {ignore=true}
+### level 3 {ignore=true}
+#### level 4 {ignore=true}
+##### level 5 {ignore=true}
+###### level 6 {ignore=true}
+###### header with id {#header_id, ignore=true}
+###### header with class {.header_class1, .header_class2, ignore=true}
 
 ---
 ## [Emphasis](https://shd101wyy.github.io/markdown-preview-enhanced/#/markdown-basics?id=emphasis)
