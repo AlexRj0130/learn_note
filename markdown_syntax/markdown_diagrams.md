@@ -1,3 +1,5 @@
+[TOC]
+
 # [Diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/diagrams)
 
 ## [Mermaid](https://github.com/mermaid-js/mermaid)
