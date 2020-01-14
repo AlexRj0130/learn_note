@@ -1,0 +1,674 @@
+{
+    "root": {
+        "data": {
+            "id": "bzdjt9mk3vs0",
+            "created": 1577180461707,
+            "text": "编译原理"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "bzdjtffuo6w0",
+                    "created": 1577180474363,
+                    "text": "语法分析"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "bzdju326alc0",
+                            "created": 1577180525778,
+                            "text": "自顶向下分析"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzdjudi1hag0",
+                                    "created": 1577180548506,
+                                    "text": "概念",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdjuewda1s0",
+                                            "created": 1577180551549,
+                                            "text": "最左推导"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdjug8w4ig0",
+                                            "created": 1577180554483,
+                                            "text": "最右推导"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdjx1civ8w0",
+                                            "created": 1577180757143,
+                                            "text": "左递归文法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdjx4vjijc0",
+                                                    "created": 1577180764823,
+                                                    "text": "直接左递归"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdjx7iiho00",
+                                                    "created": 1577180770566,
+                                                    "text": "间接左递归"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdjzpjirag0",
+                                            "created": 1577180966537,
+                                            "text": "FOLLOW集"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdk1chzmnk0",
+                                                    "created": 1577181094875,
+                                                    "text": "非终结符的后继符号集"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdk0hqx2eg0",
+                                                    "created": 1577181027934,
+                                                    "text": "某个句型中紧跟在A后边的终结符的集合"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdk7jovgrs0",
+                                                    "created": 1577181580714,
+                                                    "text": "计算方法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdk1lcswvs0",
+                                            "created": 1577181114152,
+                                            "text": "SELECT集"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdk1onud5s0",
+                                                    "created": 1577181121350,
+                                                    "text": "产生式的可选集"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdk1xwcdu80",
+                                                    "created": 1577181141455,
+                                                    "text": "可以选用该产生式进行推导时对应的输入符号的集合"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdk6hdjxy80",
+                                            "created": 1577181497311,
+                                            "text": "FIRST集"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdk6vad61c0",
+                                                    "created": 1577181527593,
+                                                    "text": "计算方法"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzdjwjy3qy00",
+                                    "created": 1577180719266,
+                                    "text": "问题",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdjvoip6wg0",
+                                            "created": 1577180650854,
+                                            "text": "回溯"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdjvsjf1k00",
+                                                    "created": 1577180659605,
+                                                    "text": "由同一非终结符的多个候选式存在共同前缀所导致的问题"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdjwomzj7k0",
+                                            "created": 1577180729478,
+                                            "text": "无限循环"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzdjxy57ql40",
+                                    "created": 1577180828535,
+                                    "text": "文法转换",
+                                    "expandState": "collapse"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdjy42ngjc0",
+                                            "created": 1577180841441,
+                                            "text": "S_文法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdjyhwzh540",
+                                                    "created": 1577180871573,
+                                                    "text": "又称：简单的确定性文法"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdjynirjtc0",
+                                                    "created": 1577180883774,
+                                                    "text": "特点"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdjyqg23ao0",
+                                                            "created": 1577180890140,
+                                                            "text": "1. 每个产生式的右部都以终结符开始"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdjz3xxdug0",
+                                                            "created": 1577180919519,
+                                                            "text": "2. 同一非终结符的各个候选式的首终结符都不同"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdk2m5kkzc0",
+                                            "created": 1577181194256,
+                                            "text": "q_文法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdk2oz0rd40",
+                                                    "created": 1577181200390,
+                                                    "text": "特点"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdk2vqcs6o0",
+                                                            "created": 1577181215104,
+                                                            "text": "1. 每个产生式的右部或以空字符，或以终结符开始"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdk49mmhg80",
+                                                            "created": 1577181323717,
+                                                            "text": "2. 具有相同左部的产生式有不相交的可选集"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdk5c8n14o0",
+                                            "created": 1577181407766,
+                                            "text": "LL(1)文法"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdk845ko5k0",
+                                                    "created": 1577181625259,
+                                                    "text": "分析方法"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdk885gtxk0",
+                                                            "created": 1577181633960,
+                                                            "text": "递归的预测分析"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdk8a2f2ns0",
+                                                            "created": 1577181638129,
+                                                            "text": "非递归的预测分析"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bzdk8qc7d9s0",
+                                                                    "created": 1577181673549,
+                                                                    "text": "又称：表驱动的预测分析"
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdk9ctqi9k0",
+                                                    "created": 1577181722498,
+                                                    "text": "实现步骤"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdk9of0w9k0",
+                                                    "created": 1577181747730,
+                                                    "text": "错误检测"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdka22gm200",
+                                                            "created": 1577181777446,
+                                                            "text": "情况1："
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdka3q80co0",
+                                                            "created": 1577181781059,
+                                                            "text": "情况2："
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "bzdkak4b8bs0",
+                                                    "created": 1577181816739,
+                                                    "text": "错误恢复"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdkamfwwrk0",
+                                                            "created": 1577181821795,
+                                                            "text": "恐慌模式"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "bzdkb5id6zs0",
+                            "created": 1577181863302,
+                            "text": "自底向上分析"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "bzdkbi58dw80",
+                                    "created": 1577181890806,
+                                    "text": "通用框架：移入--归约分析"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdkcmzlvvk0",
+                                            "created": 1577181979714,
+                                            "text": "工作过程"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdkcqc65q00",
+                                            "created": 1577181987004,
+                                            "text": "4种动作"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzdkc0doxyg0",
+                                    "created": 1577181930499,
+                                    "text": "概念"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdkc2ecsrc0",
+                                            "created": 1577181934893,
+                                            "text": "规范句型"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzdkd19ityw0",
+                                    "created": 1577182010788,
+                                    "text": "问题"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdkd5123jc0",
+                                            "created": 1577182018984,
+                                            "text": "如何正确的识别句柄"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "bzdkdwhons80",
+                                    "created": 1577182078762,
+                                    "text": "LR分析法",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "bzdke8z647k0",
+                                            "created": 1577182105941,
+                                            "text": "基本原理"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdkelwaozc0",
+                                                    "created": 1577182134065,
+                                                    "text": "状态"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "bzdken0efb40",
+                                            "created": 1577182136490,
+                                            "text": "LR分析表"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "bzdkffpup080",
+                                                    "created": 1577182198979,
+                                                    "text": "如何构造？",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdkflo5o4g0",
+                                                            "created": 1577182211937,
+                                                            "text": "LR(0)分析",
+                                                            "expandState": "expand"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bzdkg8saru80",
+                                                                    "created": 1577182262254,
+                                                                    "text": "概念",
+                                                                    "expandState": "expand"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzdkgafsytc0",
+                                                                            "created": 1577182265852,
+                                                                            "text": "LR(0)项目"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bzdkgiffpk80",
+                                                                                    "created": 1577182283244,
+                                                                                    "text": "移进项目"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bzdkgtvbwmw0",
+                                                                                    "created": 1577182308149,
+                                                                                    "text": "待约项目"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bzdkgx1lwbc0",
+                                                                                    "created": 1577182315059,
+                                                                                    "text": "归约项目"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzdkh6jdiug0",
+                                                                            "created": 1577182335725,
+                                                                            "text": "增广文法"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzdkhqqvji80",
+                                                                            "created": 1577182379714,
+                                                                            "text": "后继项目"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzdkjdkjygw0",
+                                                                            "created": 1577182507762,
+                                                                            "text": "等价项目"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzdkji79t1s0",
+                                                                            "created": 1577182517842,
+                                                                            "text": "项目集闭包"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzg77k9rm740",
+                                                                            "created": 1577449587418,
+                                                                            "text": "LR(0)自动机"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzg7h289hgg0",
+                                                                            "created": 1577450331787,
+                                                                            "text": "冲突"
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bzg7h3ghosw0",
+                                                                                    "created": 1577450334461,
+                                                                                    "text": "移入/归约冲突"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bzg7h7khfdk0",
+                                                                                    "created": 1577450343410,
+                                                                                    "text": "归约/归约冲突"
+                                                                                },
+                                                                                "children": []
+                                                                            },
+                                                                            {
+                                                                                "data": {
+                                                                                    "id": "bzg7lecuvzk0",
+                                                                                    "created": 1577450671643,
+                                                                                    "text": "注：没有冲突就是 LR(0)文法"
+                                                                                },
+                                                                                "children": []
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdkfuxj7ko0",
+                                                            "created": 1577182232095,
+                                                            "text": "LALR分析",
+                                                            "layout_right_offset": {
+                                                                "x": 10,
+                                                                "y": 259
+                                                            }
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdkfoz3v800",
+                                                            "created": 1577182219130,
+                                                            "text": "SLR分析"
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "bzg8w3mraa80",
+                                                                    "created": 1577454331412,
+                                                                    "text": "原理：通过FOLLOW集化解冲突"
+                                                                },
+                                                                "children": []
+                                                            },
+                                                            {
+                                                                "data": {
+                                                                    "id": "bzg8wmgveyw0",
+                                                                    "created": 1577454372415,
+                                                                    "text": "冲突"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzg8wqf1ylc0",
+                                                                            "created": 1577454381012,
+                                                                            "text": "移入/归约冲突"
+                                                                        },
+                                                                        "children": []
+                                                                    },
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "bzg8wtpqlo80",
+                                                                            "created": 1577454388189,
+                                                                            "text": "注：没有冲突就是SLR文法"
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "bzdkfr389ts0",
+                                                            "created": 1577182223732,
+                                                            "text": "LR(1)分析"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
