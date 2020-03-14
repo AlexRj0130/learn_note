@@ -42,7 +42,7 @@ state_6 --> be
 - C语言
   - [x] 《C程序设计（第四版）》 -- 谭浩强 
   - [ ] 《The C Programming Language》
-  - [ ] 《C缺陷与陷阱》 -- Andrew Koenig
+  - [x] 《C缺陷与陷阱》 -- Andrew Koenig
 - 数据结构
 - 汇编语言
 - 计算机系统
